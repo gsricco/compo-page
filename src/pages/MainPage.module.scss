@@ -1,5 +1,5 @@
-@import '../styles/fonts';
-@import '../styles/variables';
+@import '@/styles/fonts';
+@import '@/styles/variables';
 
 .mainPage {
   display: flex;
@@ -35,7 +35,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
-    //border: 1px solid red;
 
     .photoBlock {
       display: flex;
@@ -64,7 +63,6 @@
 
       .productDataBlock {
         display: flex;
-        //height: 300px;
         gap: 48px;
         .prices {
           display: flex;
@@ -74,14 +72,12 @@
           font-size: 14px;
           font-weight: 500;
           gap: 32px;
-          //border: 1px solid red;
           & span {
             color: #ff3d71;
           }
 
           .priceItem {
             display: flex;
-            //justify-content: space-between;
             align-items: center;
             gap: 16px;
 
@@ -104,14 +100,12 @@
           }
           .package {
             display: flex;
-            //min-width: 500px;
             gap: 16px;
             padding-bottom: 32px;
             border-bottom: 2px solid #e2e4f0;
             .order {
               display: flex;
               align-items: center;
-              //border: 1px solid green;
               gap: 12px;
               & span {
                 color: $buttonColor;
@@ -200,7 +194,6 @@
           display: flex;
           flex-wrap: wrap;
           width: 636px;
-          //border: 1px solid red;
           gap: 32px;
           & h4 {
             width: 100%;

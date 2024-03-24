@@ -1,15 +1,14 @@
+import avatar from '@/styles/images/svg/Avatar.svg'
+import basket from '@/styles/images/svg/basket_blue.svg'
+import bell from '@/styles/images/svg/bell_blue.svg'
+import msg from '@/styles/images/svg/circle_msg.svg'
+import heart from '@/styles/images/svg/heart.svg'
+import logo from '@/styles/images/svg/logo.svg'
 import ListIcon from '@mui/icons-material/List'
 import SearchIcon from '@mui/icons-material/Search'
 import { Button, InputAdornment, TextField } from '@mui/material'
 
 import style from './Header.module.scss'
-
-import avatar from '../../styles/images/svg/Avatar.svg'
-import basket from '../../styles/images/svg/basket_blue.svg'
-import bell from '../../styles/images/svg/bell_blue.svg'
-import msg from '../../styles/images/svg/circle_msg.svg'
-import heart from '../../styles/images/svg/heart.svg'
-import logo from '../../styles/images/svg/logo.svg'
 
 const Header = () => {
   return (

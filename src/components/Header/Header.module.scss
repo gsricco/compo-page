@@ -68,7 +68,6 @@
       & img {
         width: 32px;
         height: 32px;
-        //margin: 24px 8px;
       }
     }
     .basket {
@@ -111,11 +110,10 @@
         border: none;
         font-family: 'Gotham Pro', sans-serif;
         font-size: 14px;
-        background: no-repeat url('../../../src/styles/images/svg/arrow_down.svg');
-        background-position: right 0.8em top 50%;
+        background: right 0.8em top 50% no-repeat
+          url('../../../src/styles/images/svg/arrow_down.svg');
         padding-right: 36px;
         appearance: none;
-        //padding: 8px 16px;
       }
     }
   }
@@ -133,13 +131,7 @@
 
     .nav {
       display: flex;
-      //justify-content: center;
       align-items: center;
-
-      //width: 1215px;
-      //height: 56px;
-      //background: #ffffff;
-      //padding: 16px 24px;
       gap: 24px;
 
       & span {
@@ -157,8 +149,6 @@
       color: $buttonColor;
       font-family: 'Gotham Pro', sans-serif;
       font-size: 14px;
-      //padding: 16px 24px 16px 0;
-
       gap: 25px;
 
       .message {

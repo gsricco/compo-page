@@ -1,22 +1,21 @@
 import { useState } from 'react'
 
+import arrRigth from '@/styles/images/svg/arow_rigth.svg'
+import arrLeft from '@/styles/images/svg/arrow_left.svg'
+import basket from '@/styles/images/svg/basket.svg'
+import photo from '@/styles/images/svg/cross.svg'
+import photo1 from '@/styles/images/svg/cross1.svg'
+import photo2 from '@/styles/images/svg/cross2.svg'
+import photo3 from '@/styles/images/svg/cross3.svg'
+import photo4 from '@/styles/images/svg/cross4.svg'
 import heart from '@/styles/images/svg/heart_blue.svg'
+import minus from '@/styles/images/svg/icon_minus.svg'
+import plus from '@/styles/images/svg/icon-1_plus.svg'
 import { Button } from '@mui/material'
 import Switch, { SwitchProps } from '@mui/material/Switch'
 import { styled } from '@mui/material/styles'
 
 import style from './MainPage.module.scss'
-
-import arrRigth from '../styles/images/svg/arow_rigth.svg'
-import arrLeft from '../styles/images/svg/arrow_left.svg'
-import basket from '../styles/images/svg/basket.svg'
-import photo from '../styles/images/svg/cross.svg'
-import photo1 from '../styles/images/svg/cross1.svg'
-import photo2 from '../styles/images/svg/cross2.svg'
-import photo3 from '../styles/images/svg/cross3.svg'
-import photo4 from '../styles/images/svg/cross4.svg'
-import minus from '../styles/images/svg/icon_minus.svg'
-import plus from '../styles/images/svg/icon-1_plus.svg'
 
 const MainPage = () => {
   const [counter, setCounter] = useState<boolean>(true)
