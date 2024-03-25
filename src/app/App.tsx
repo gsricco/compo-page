@@ -1,6 +1,6 @@
 import { Footer } from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
-import MainPage from '@/pages/MainPage'
+import MainPage from '@/pages/MainPage/MainPage'
 
 import '../styles/index.scss'
 

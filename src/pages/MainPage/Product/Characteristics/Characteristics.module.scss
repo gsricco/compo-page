@@ -1,0 +1,35 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.characteristics {
+  display: flex;
+  flex-wrap: wrap;
+  width: 636px;
+  gap: 32px;
+  & h4 {
+    width: 100%;
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #071435;
+    margin: 0;
+  }
+  & .itemInfo {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 32px;
+    & .temInfoTitle {
+      font-family: 'Gotham', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #071435;
+    }
+    & span {
+      font-family: 'Gotham', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: $subtextColor;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 62px;
+  gap: 24px;
+  .catalogWay {
+    font-family: 'Gotham', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: $subtextColor;
+  }
+  .title {
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: $textColor;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 1560px) {
+  .title {
+    text-align: center;
+  }
+}

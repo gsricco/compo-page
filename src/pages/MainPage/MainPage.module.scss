@@ -1,0 +1,39 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.mainPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 24px 32px;
+  background: #ffffff;
+  gap: 32px;
+
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+
+    .contentBlock {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      gap: 24px;
+    }
+  }
+}
+@media (max-width: 1560px) {
+  .product {
+    justify-content: center;
+  }
+}
+@media (max-width: 990px) {
+  .mainPage {
+    .contentBlock {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 284px;
+  height: 56px;
+  border: 2px solid $buttonColor;
+  border-radius: 5px;
+  padding: 16px;
+  font-family: 'Gotham', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}

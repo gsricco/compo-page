@@ -34,3 +34,17 @@ body {
     height: fit-content;
   }
 }
+@media (max-width: 1240px) {
+  body {
+    .container {
+      max-width: 1000px;
+    }
+  }
+}
+@media (max-width: 990px) {
+  body {
+    .container {
+      max-width: 600px;
+    }
+  }
+}

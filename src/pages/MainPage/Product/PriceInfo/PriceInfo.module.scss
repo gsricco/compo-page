@@ -1,0 +1,24 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.infoBlock {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  .itemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .itemInfoTitle {
+      font-family: 'Gotham', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    & span {
+      font-family: 'Gotham', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: $subtextColor;
+    }
+  }
+}
