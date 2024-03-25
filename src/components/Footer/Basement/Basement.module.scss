@@ -1,0 +1,69 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.basement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 24px;
+  gap: 40px;
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    .socialItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+
+      & img {
+        width: 16px;
+        height: 16px;
+      }
+
+      & span {
+        font-family: 'Gotham', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: $subtextColor;
+      }
+    }
+    & :nth-child(4) span {
+      color: $buttonColor;
+    }
+  }
+  .politic {
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: $subtextColor;
+  }
+  .logoFooter {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    & img {
+      width: 124px;
+      height: 24px;
+    }
+
+    & span {
+      font-family: 'Gotham', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: $subtextColor;
+    }
+  }
+}
+@media (max-width: 990px) {
+  .basement {
+    .social {
+      flex-wrap: wrap;
+    }
+  }
+}

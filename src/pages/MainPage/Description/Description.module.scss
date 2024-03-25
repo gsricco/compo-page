@@ -1,0 +1,21 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.description {
+  font-family: 'Gotham Light', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #071435;
+  padding-right: 24px;
+
+  & h3 {
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+@media (max-width: 990px) {
+  .description {
+    width: 400px;
+  }
+}

@@ -1,0 +1,77 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.contactsBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 24px;
+  border-top: 2px solid #e2e4f0;
+  border-bottom: 2px solid #e2e4f0;
+
+  .contacts {
+    display: flex;
+    padding: 48px 0;
+    gap: 56px;
+
+    & img {
+      width: 206px;
+      height: 40px;
+    }
+
+    .itemInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .itemInfoTitle {
+        font-family: 'Gotham', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      & span {
+        font-family: 'Gotham', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: $subtextColor;
+      }
+    }
+  }
+
+  .popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+    & span {
+      font-family: 'Gotham', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .idea {
+      display: flex;
+      width: 179px;
+      height: 48px;
+      justify-content: center;
+      align-items: center;
+      background: #f2f6ff;
+      border-radius: 5px;
+      color: $buttonColor;
+    }
+  }
+}
+@media (max-width: 1240px) {
+  .contactsBlock {
+    flex-wrap: wrap;
+    height: fit-content;
+    .contacts,
+    .popular {
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+  }
+}

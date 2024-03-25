@@ -1,0 +1,108 @@
+@import '@/styles/fonts';
+@import '@/styles/variables';
+
+.productDataBlock {
+  display: flex;
+  gap: 48px;
+  .prices {
+    display: flex;
+    width: 372px;
+    flex-direction: column;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 32px;
+    & > span {
+      color: #ff3d71;
+    }
+
+    .priceItem {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      & span {
+        font-family: 'Gotham', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: $textColor;
+      }
+
+      .actions {
+        font-family: 'Gotham', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        background: #ff3d71;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+    .package {
+      display: flex;
+      gap: 16px;
+      padding-bottom: 32px;
+      border-bottom: 2px solid #e2e4f0;
+      .order {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        & span {
+          color: $buttonColor;
+        }
+        .message {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 26px;
+          background: #f2f6ff;
+          border-radius: 5px;
+
+          & span {
+            color: $subtextColor;
+            font-family: 'Gotham Pro', sans-serif;
+            font-size: 14px;
+            background: #f2f6ff;
+            border-radius: 5px;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+    .btn {
+      display: flex;
+      justify-content: space-between;
+
+      & button {
+        width: 284px;
+        height: 56px;
+        text-transform: capitalize;
+        font-family: 'Gotham', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+
+        & img {
+          padding-right: 16px;
+          font-weight: bold;
+        }
+      }
+      .iconHeart {
+        display: flex;
+        width: 72px;
+        height: 56px;
+        justify-content: center;
+        align-items: center;
+        background: #f2f6ff;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+@media (max-width: 990px) {
+  .productDataBlock {
+    flex-wrap: wrap;
+    & hr {
+      display: none;
+    }
+  }
+}
